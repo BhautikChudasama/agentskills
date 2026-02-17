@@ -26,5 +26,6 @@ packages = ["src/skills_ref"]
 [dependency-groups]
 dev = [
     "pytest>=7.0",
+    "pyinstaller>=6.0",
     "ruff>=0.8.0",
 ]
