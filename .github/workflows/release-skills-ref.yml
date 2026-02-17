@@ -19,8 +19,6 @@ jobs:
             artifact_name: skills-ref-linux-amd64
           - os: macos-latest
             artifact_name: skills-ref-macos-arm64
-          - os: windows-latest
-            artifact_name: skills-ref-windows-amd64.exe
 
     defaults:
       run:
