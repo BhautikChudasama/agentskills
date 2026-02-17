@@ -47,7 +47,7 @@ jobs:
             --onefile \
             --name ${{ matrix.artifact_name }} \
             --paths src \
-            src/skills_ref/cli.py
+            entrypoint.py
         shell: bash
 
       - name: Upload artifact
